@@ -1,0 +1,23 @@
+{
+  "name": "caesar_cipher_cli_tool",
+  "version": "1.0.0",
+  "description": "RSS_NodeJS",
+  "main": "index.js",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrDiman/Caesar_cipher_CLI_tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrDiman/Caesar_cipher_CLI_tool/issues"
+  },
+  "homepage": "https://github.com/DrDiman/Caesar_cipher_CLI_tool#readme"
+}
