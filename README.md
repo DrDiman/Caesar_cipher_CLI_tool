@@ -13,24 +13,24 @@ CLI tool accept 4 options (short alias and full name):
 3.  **-o, --output**: an output file
 4.  **-a, --action**: an action encode/decode
 
-##### It was created mock file `test.txt`  with the next content: 'Hello NodeJS! How are you? =)' to simlify checks.
+##### It was created mock file `test.txt` with the next content: 'Hello NodeJS! How are you? =)' to simplify checks you can run next commands one by one to check everything:
 ``` 
-$ node my_caesar_cli -s 6 -i './test.txt' -o 'result.txt' -a encode
+$ node my_caesar_cli -s 100 -i './test.txt' -o 'result.txt' -a encode
 ```
-> output in the result.txt: `Nkrru&TujkPY'&Nu}&gxk&u{E&C/`
+> output in the result.txt: `¬ÉÐÐÓ ²ÓÈÉ®·! ¬ÓÛ ÅÖÉ ÝÓÙ? =)`
 ```
-$ node my_caesar_cli -s 6 -i './result.txt' -o 'test2.txt' -a decode
+$ node my_caesar_cli -s 100 -i './result.txt' -o 'test2.txt' -a decode
 ```
 > output in the text2.txt: `Hello NodeJS! How are you? =)`
 ```
-$ node my_caesar_cli -s 6 -a encode
+$ node my_caesar_cli -s 150 -a encode
 ```
 >type input in the console: `hello`
->output in the console: `nkrru`
+>output in the console: `þûĂĂą`
 ```
-$ node my_caesar_cli -s 6 -a decode
+$ node my_caesar_cli -s 150 -a decode
 ```
->type input in the console: `nkrru`
+>type input in the console: `þûĂĂą`
 >output in the console: `hello`
 ```
 $ node my_caesar_cli -s 6 -o test3.txt -a encode
